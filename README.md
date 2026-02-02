@@ -167,18 +167,6 @@ Este projeto é de código aberto e está disponível para fins educacionais.
 
 ---
 
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Sinta-se à vontade para:
-
-1. Fazer um Fork do projeto
-2. Criar uma branch para sua feature (`git checkout -b feature/NovaFuncionalidade`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
-4. Push para a branch (`git push origin feature/NovaFuncionalidade`)
-5. Abrir um Pull Request
-
----
-
 ## 📞 Contato
 
 Tem alguma dúvida ou sugestão? Entre em contato!
@@ -192,6 +180,6 @@ Tem alguma dúvida ou sugestão? Entre em contato!
   
 ### ⭐ Se este projeto foi útil para você, considere dar uma estrela!
 
-**Desenvolvido com 💜 por Gabriell Magnago**
+**Desenvolvido por Gabriel Magnago**
 
 </div>
