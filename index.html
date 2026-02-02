@@ -7,18 +7,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- ============================================
-         HEADER - Cabeçalho com Logo e Navegação
-         ============================================ -->
     <header class="header">
         <div class="header-container">
-            <!-- Logo / Marca -->
             <div class="logo">
                 <span class="logo-icon">✈️</span>
                 <span class="logo-text">Projeto Viagens</span>
             </div>
 
-            <!-- Menu de Navegação -->
             <nav class="navbar">
                 <ul class="nav-menu">
                     <li><a href="#home" class="nav-link active">Home</a></li>
@@ -29,9 +24,6 @@
         </div>
     </header>
 
-    <!-- ============================================
-         SEÇÃO HERO - Destaque Principal
-         ============================================ -->
     <section id="home" class="hero">
         <div class="hero-content">
             <h1 class="hero-title">Explore o Mundo, Planeje Suas Aventuras</h1>
@@ -43,11 +35,7 @@
         </div>
     </section>
 
-    <!-- ============================================
-         MAIN - Conteúdo Principal
-         ============================================ -->
     <main class="main-content">
-        <!-- Seção de Cadastro de Viagens -->
         <section id="cadastro" class="section cadastro-section">
             <div class="section-container">
                 <h2 class="section-title">Registre Sua Próxima Viagem</h2>
@@ -56,7 +44,6 @@
                 <!-- Formulário -->
                 <form id="tripForm" class="trip-form">
                     <div class="form-wrapper">
-                        <!-- Campo: Destino -->
                         <div class="form-group">
                             <label for="destination">
                                 <span class="label-icon">📍</span>
@@ -71,7 +58,6 @@
                             >
                         </div>
 
-                        <!-- Campo: Data -->
                         <div class="form-group">
                             <label for="date">
                                 <span class="label-icon">📅</span>
@@ -85,7 +71,6 @@
                             >
                         </div>
 
-                        <!-- Campo: Status -->
                         <div class="form-group">
                             <label for="status">
                                 <span class="label-icon">🏷️</span>
@@ -97,7 +82,6 @@
                             </select>
                         </div>
 
-                        <!-- Campo: Descrição (opcional) -->
                         <div class="form-group form-group-full">
                             <label for="description">
                                 <span class="label-icon">📝</span>
@@ -111,7 +95,6 @@
                             ></textarea>
                         </div>
 
-                        <!-- Botão de Envio -->
                         <button type="submit" class="btn btn-primary btn-large">
                             ➕ Adicionar Viagem
                         </button>
@@ -120,13 +103,11 @@
             </div>
         </section>
 
-        <!-- Seção de Listagem de Viagens -->
         <section id="minhas-viagens" class="section trips-section">
             <div class="section-container">
                 <h2 class="section-title">Minhas Viagens</h2>
                 <p class="section-subtitle">Acompanhe todas as suas aventuras planejadas</p>
 
-                <!-- Botões de Filtro -->
                 <div class="filter-container">
                     <button class="filter-btn active" data-filter="todas">
                         <span class="filter-icon">📌</span>
@@ -142,7 +123,6 @@
                     </button>
                 </div>
 
-                <!-- Grid de Viagens -->
                 <div id="tripsList" class="trips-grid">
                     <div class="empty-state">
                         <div class="empty-icon">🗺️</div>
@@ -153,7 +133,6 @@
             </div>
         </section>
 
-        <!-- Seção Informativa -->
         <section id="sobre" class="section info-section">
             <div class="section-container">
                 <h2 class="section-title">Sobre Este Projeto</h2>
@@ -181,9 +160,6 @@
         </section>
     </main>
 
-    <!-- ============================================
-         FOOTER - Rodapé
-         ============================================ -->
     <footer class="footer">
         <div class="footer-container">
             <p class="footer-text">
@@ -195,7 +171,6 @@
         </div>
     </footer>
 
-    <!-- Script da Aplicação -->
     <script src="script.js"></script>
 </body>
 </html>
